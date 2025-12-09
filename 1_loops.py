@@ -37,13 +37,21 @@ numbers = [5, 10, 15, 20]
 
 total = 0
 for num in numbers:
-    total += numbers
+    total += num
 print("total: ", total)
 
 new_num =list(range(1,61))
 
 base = 0
-for num in new_num:
+for num in new_num :
     base += num
-print("base", num)
+print("base: ", num)
+
+list1= list(range(5,26))
+print(list1)
+origin= 0
+for x in list1:
+    origin += x
+print("origin:" , origin)
+
  
