@@ -47,8 +47,8 @@ for num in new_num :
     base += num
 print("base: ", num)
 
-list1= list(range(5,26))
-print(list1)
+list1= list(range(5,26)) #range allowss all ny=umber to b added
+print(list1) #prints the 5 through 25
 origin= 0
 for x in list1:
     origin += x
