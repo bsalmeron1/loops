@@ -3,8 +3,11 @@
 
 # **Directions:** Solve each problem by writing your own Python code. Show outputs where required.
 
-
-# ### **Problem 1: Print Numbers 1 to 10
+list1=list(range(1,11))
+print(list)
+for i in list1:
+    print(1)
+ #ii doesnt mean anything its just a place holder# ### **Problem 1: Print Numbers 1 to 10
 
 # Write a program that prints the numbers from **1 to 10**, each on a new line.
 
@@ -13,9 +16,11 @@
 # ### **Problem 2: Sum of Numbers
 
 # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
-
-
-
+n= int(input("Enter a num : "))
+begnining=0
+for i in range(1, n+1): #plus one to include the actual number
+    begnining += i #total = total + i new value
+print ("the sum of 1 to " , n, "is", begnining) 
 # ### **Problem 3: Factorial Calculator
 
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
