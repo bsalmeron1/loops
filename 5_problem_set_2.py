@@ -1,19 +1,6 @@
 # **Problem 1: Budgeting**
 # John has a monthly budget of $1000. Write a Python program that uses a for loop to ask John to input his expenses, and then use an if-else statement to check if he is within his budget or has overspent.
-for i in range(5):
-    print(i + 1)
 
-
-def factorial(n):
-    factorial= 1 #bcs mulitplying and 0 factorial eqal 1
-
-    for i in range(n):
-        factorial*= i+1
-
-
-    return(factorial)
-
-print(factorial (4)) # 4*3 *2*1
     # **Problem 2: Grade Calculator**
 # Jane is a teacher and she wants to calculate the final grades for her students. Write a Python program that uses a while loop to input each student's score, then use an if-elif-else statement to assign a letter grade based on the score.
 

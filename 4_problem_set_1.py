@@ -26,7 +26,20 @@ print ("the sum of 1 to " , n, "is", begnining)
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
 # *(Example: factorial of 5 is 120)
+for i in range(5):
+    print(i + 1)
 
+
+def factorial(n):
+    factorial= 1 #bcs mulitplying and 0 factorial eqal 1
+
+    for i in range(n):
+        factorial*= i+1
+
+
+    return(factorial)
+
+print(factorial (4)) # 4*3 *2*1
 
 # ### **Problem 4: Count Vowels**
 
@@ -34,7 +47,13 @@ print ("the sum of 1 to " , n, "is", begnining)
 
 
 # ### **Problem 5: Print Even Numbers**
-
+q= int(input("enter a num: "))
+list2 = list(range(2, q))
+for x in list2:
+    if x % 2 == 0:
+        print("This is even")
+    else:
+        print("This is not even")
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
 
 
